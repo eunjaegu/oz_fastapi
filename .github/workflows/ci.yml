@@ -13,13 +13,13 @@ jobs:
 
       - name: Setup python environment
         id: setup-python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: "3.13"
 
       - name: Cache Poetry
         id: cache-poetry
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           key: poetry-1.8.5
           path: ~/.local/ # poetry 는 ~/.local 에 설치 되므로, 이 디렉터리를 통쨰로 캐시할 것이다.
