@@ -10,3 +10,4 @@ def test_add() -> None:
 
     # Then: when 절에서 실행한 결과를 검증 한다.
     assert result == 2
+ 
