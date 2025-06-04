@@ -9,6 +9,7 @@ from typing import cast
 
 import edgedb
 
+
 @dataclasses.dataclass
 class CreateMeetingResult:
     id: uuid.UUID
