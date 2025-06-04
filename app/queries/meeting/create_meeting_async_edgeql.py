@@ -9,10 +9,6 @@ from typing import cast
 
 import edgedb
 
-from app.utils.base62 import Base62
-from app.utils.edge import edgedb_client
-
-
 @dataclasses.dataclass
 class CreateMeetingResult:
     id: uuid.UUID
