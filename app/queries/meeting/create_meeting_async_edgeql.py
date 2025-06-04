@@ -2,7 +2,6 @@
 #     $ edgedb-py
 from __future__ import annotations
 
-import asyncio
 import dataclasses
 import uuid
 from typing import cast
